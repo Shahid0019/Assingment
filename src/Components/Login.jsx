@@ -10,7 +10,7 @@ function Login() {
   const handleClick = (e) => {
     e.preventDefault();
     if (user && password) {
-      console.log(user, password);
+      // console.log(user, password);
       navigate("/home");
     } else {
       alert("Please Enter both Email and Password");
